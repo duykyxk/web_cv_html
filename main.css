@@ -17,10 +17,10 @@ body
 {
     position: relative;
     width: 100%;
-    max-width: 100px;
+    max-width: 500px;
     min-height: 1000px;
+    margin: 60px;
     background:	#fff;
-    margin: 50px;
     display: flex;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
@@ -29,7 +29,6 @@ body
 {
     position: relative;
     background: #2483af;
-    padding: 40px;
 }
 .profileText
 {
@@ -37,16 +36,18 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: px;
+    background: #0e628a;
 }
 .profileText .imgBx
 {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
     border-radius: 100%;
-    overflow: hidden;
-    background:#075072;
+    overflow:auto;
+    top: 0.5cm;
+    
 }
 .profileText .imgBx img
 {
@@ -60,7 +61,7 @@ body
 .profileText h2
 {
     color: #fff;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-top: 20px;
     text-align: center;
     font-weight: 600;
@@ -68,9 +69,14 @@ body
 }
 .profileText h2 span
 {
-    font-style: oblique;
+    font-style:oblique;
     font-size: 0.8em;
     font-weight: 300;
+}
+.contactinfo
+{
+    position:relative;
+    top: 1%;
 }
 .contactinfo ul li
 {
@@ -80,7 +86,7 @@ body
 }
 .contactinfo ul li .icon
 {
-    background: #0f3b50;
+    background-color: #0f3b50;
     color: rgb(253, 253, 253);
     width:  25px;
     height: 25px; 
@@ -88,6 +94,8 @@ body
     margin-right: 15px;
     font-size: 13px;
     position: relative;
+    margin-right: 0.3cm;
+    margin-left: 0.3cm;
 }
 .contactinfo .icon i
 {
@@ -99,30 +107,43 @@ body
 .contactinfo ul li .text
 { 
     color: #fff;
-    vertical-align:sub;
-    font-size: 13px;
+    text-indent: -0.2cm;
+    margin-top: 0.1cm;
+    margin-right: 1cm;
+    margin-left: 0.3cm;
+    font-size: 12px;
 }
 .title
 {
   font-size: 1em; 
   color:#fff;
+  margin-left: 0.3cm;
+  font-size: 15px;
 }
 .MUCTIEUNGHENGHIEP h5
 {
+    color: #fff;
     font-weight: 300;
-    color: #fff 
+    font-size: 12px;
+    margin-right: 0.3cm;
+    margin-left: 0.3cm;
 }
 .un
 {
     list-style: none;
     line-height: 1cm;
     color: #fff;
+    margin-left:0.31cm;
 }
-
+.kinang
+{
+    margin-right: 0.3cm;
+}
 .kinang .title
 {
     font-size: 1em; 
     color:#fff;
+    margin-left:0.31cm;
 }
  .kinang .percent
 {
@@ -150,16 +171,18 @@ body
 {
     font-size: 1em; 
     color:#fff;
+    margin-left:0.31cm;
 }
 .sothich ul li
 {
-    margin-left:0.31cm;
+    margin-left:0.7cm;
+    font-size: 12px;
 }
 .container .right_side 
 {
     position: relative;
     background:#fff;
-    padding: 30px;
+    padding: 20px;
     width: 600px;
 }
 .hocvan
@@ -194,6 +217,8 @@ body
     letter-spacing: 1px;
     margin-bottom:10px;
     font-weight: 1000;
+    margin-left: 0.8cm;
+    margin-top:-0.55cm;
 }
 .hocvan .text
 {
@@ -224,6 +249,8 @@ body
     letter-spacing: 1px;
     margin-bottom: 10px;
     font-weight: 1000;   
+    margin-left: 0.8cm;
+    margin-top:-0.55cm;
 }
 .kinhnghiemlamviec .icon
 {
@@ -272,7 +299,8 @@ body
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
-    font-weight: 1000;   
+    font-weight: 1000;   margin-left: 0.8cm;
+    margin-top:-0.55cm;
 }
 .duan .icon
 {
